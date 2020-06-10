@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+    .bestsellers-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1024px) {
+    .promo-container {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 760px) {
+    .promo-container {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 640px) {
+    .promo-container {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 540px) {
+}
+
+@media (max-width: 440px) {
+    .bestsellers h2 {
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    .bestsellers span {
+        margin-left: 5%;
+    }
+    .bestsellers_heading {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 340px) {
+}
