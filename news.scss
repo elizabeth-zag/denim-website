@@ -77,9 +77,6 @@
     .news-text-container {
         left: 18%;
     }
-}
-
-@media (max-width: 340px) {
     .news_heading h2 {
         padding-bottom: 20px;
         display: block;
@@ -90,6 +87,9 @@
     .news_heading {
         flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 0;
+        margin-bottom: -20px;
     }
+}
+
+@media (max-width: 340px) {
 }

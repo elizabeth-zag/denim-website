@@ -36,15 +36,15 @@
 }
 
 @media (max-width: 540px) {
+    .bestsellers-container {
+        margin: 0 15px;
+    }
     .column {
         flex-grow: 1;
     }
 }
 
 @media (max-width: 440px) {
-}
-
-@media (max-width: 340px) {
     .bestsellers_heading h2 {
         padding-bottom: 20px;
         display: block;
@@ -57,4 +57,7 @@
         align-items: flex-start;
         margin-bottom: 30px;
     }
+}
+
+@media (max-width: 340px) {
 }
