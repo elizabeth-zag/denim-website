@@ -231,8 +231,9 @@ body {
     bottom: -3px;
     display: block;
     width: 80px;
-    height: 1.5px;
+    max-height: 1.5px;
     background-color: #151c22;
+    padding-bottom: 2px;
 }
 
 .bestsellers-container {
@@ -244,12 +245,20 @@ body {
 }
 
 .column {
+    /* flex-grow: 1; */
+    /* max-width: 100%; */
     width: 270px;
     /* border: 2px dotted lawngreen; */
     padding: 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.column img {
+    max-width: 100%;
+    width: 270px;
+    height: auto;
 }
 
 .description {
@@ -275,6 +284,7 @@ body {
     font-size: 16px;
     color: #151c22;
 }
+
 
 ul {
     list-style: none;
