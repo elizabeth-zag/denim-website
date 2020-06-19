@@ -1,0 +1,12 @@
+.logo {
+  // border: 2px dashed orange;
+  font-size: 24px;
+  font-family: "Work Sans Extra Bold";
+  text-decoration: none;
+  &_dark {
+    color: #151c22;
+  }
+  &_white {
+    color: #fff;
+  }
+}

@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title #{title}
+  body.page
+    .page__wrapper
+      block header
+        include ../header/header.pug
+      main.page__content
+        block content
+      block footer
+        include ../footer/footer.pug

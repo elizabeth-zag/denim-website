@@ -1,0 +1,26 @@
+.bestsellers {
+  &__heading {
+    margin: 0 auto 63px;
+  }
+  &__product-cards {
+    margin-bottom: 93px;
+  }
+}
+
+@media (max-width: 760px) {
+  .bestsellers__product-cards {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .bestsellers__product-cards {
+    margin: 0 15px 40px;
+  }
+}
+
+@media (max-width: 440px) {
+  .bestsellers__heading {
+    margin-bottom: 30px;
+  }
+}

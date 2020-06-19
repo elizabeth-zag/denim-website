@@ -1,0 +1,13 @@
+.button {
+  background-color: #151c22;
+  padding: 23px 0;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  &__text {
+    font-size: 16px;
+    font-family: "Work Sans Bold";
+    color: #fff;
+    display: inline-block;
+  }
+}

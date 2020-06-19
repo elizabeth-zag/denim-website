@@ -1,0 +1,18 @@
+.site-nav {
+  list-style: none;
+  &__item {
+    display: block;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .site-nav__item {
+    display: block;
+    padding-bottom: 10px;
+  }
+}

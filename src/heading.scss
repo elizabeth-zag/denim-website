@@ -1,0 +1,45 @@
+.heading {
+  display: flex;
+  flex-direction: row;
+  padding: 0 5%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  &__name {
+    font-family: "Work Sans Bold";
+    color: #151c22;
+    font-size: 32px;
+    margin: 0;
+  }
+  &__view-all {
+    position: relative;
+    top: -3px;
+    left: -5px;
+    font-family: "Work Sans";
+    &::after {
+      content: "";
+      position: absolute;
+      left: -5px;
+      bottom: -3px;
+      display: block;
+      width: 80px;
+      max-height: 1.5px;
+      background-color: #151c22;
+      padding-bottom: 2px;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .heading__name {
+    padding-bottom: 20px;
+    display: block;
+  }
+  .heading__view-all {
+    margin-left: 5%;
+  }
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

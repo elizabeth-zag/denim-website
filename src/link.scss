@@ -1,0 +1,16 @@
+.link {
+  font-family: "Work Sans";
+  text-decoration: none;
+  &_dark {
+    color: #151c22;
+  }
+  &_white {
+    color: #fff;
+  }
+  &_small {
+    font-size: 16px;
+  }
+  &_big {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,20 @@
+.categories {
+  &__heading {
+    margin: 0 auto 64px;
+  }
+  &__product-cards {
+    margin-bottom: 124px;
+  }
+}
+
+@media (max-width: 760px) {
+  .categories__product-cards {
+    margin-bottom: 95px;
+  }
+}
+
+@media (max-width: 540px) {
+  .categories__product-cards {
+    margin-bottom: 45px;
+  }
+}

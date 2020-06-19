@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url(WorkSans-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Work Sans Regular";
+    src: url(WorkSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Work Sans Bold";
+    src: url(WorkSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Work Sans Extra Bold";
+    src: url(WorkSans-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url(Anton-Regular.ttf) format("truetype");
+}
