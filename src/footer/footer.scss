@@ -17,7 +17,9 @@
 }
 
 .page__main-footer {
-  flex: 0 0 auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 .social-media {
   display: flex;

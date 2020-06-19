@@ -1,3 +1,4 @@
+import './normalize.css';
 import './fonts/fonts.css';
 import './link.scss';
 import './logo.scss';
@@ -5,7 +6,6 @@ import './heading.scss';
 import './button.scss';
 import './product-cards.scss';
 import './site-nav.scss';
-import './general/general.scss';
 import './header/header.scss';
 import './promo/promo.scss';
 import './bestsellers/bestsellers.scss';
